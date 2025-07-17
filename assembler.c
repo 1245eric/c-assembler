@@ -24,6 +24,7 @@ int find_label_address(const char *name) {
     return -1;
 }
 
+
 // 將助記符轉換為對應的 opcode
 int get_opcode(const char *mnemonic) {
     if (strcmp(mnemonic, "LOAD") == 0) return 0x01;
